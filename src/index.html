@@ -14,38 +14,51 @@
       <nav class="smallTitle">
         <h1>Data-Ladies</h1>
       </nav>
-      <br/>
-      <nav class="bigTitle">
-        <h1>MULHERES NO MERCADO DE TRABALHO</h1>
-        <!-- <p>Brasil - Peru - México - Chile</p> -->
+        <nav class="navFilter">
+          <div>
+            <!-- <label>Selecione o país:</label> -->
+            <select id="selCountry">
+              <option>País</option>
+              <option value="BRA">Brasil</option>
+              <option value="CHL">Chile</option>
+              <option value="MEX">México</option>
+              <option value="PER">Perú</option>
+            </select>
+          </div>
+    
+          <div>
+            <!-- <label>Selecione o tema:</label> -->
+            <select id="selTheme">
+              <option value="EMPLEO">Tema</option>
+              <option value="EMPLEO">Emprego</option>
+              <option value="MUJERES">Mulheres</option>
+              <option value="TRABAJO">Trabalho</option>
+              <option value="EDUCACIÓN">Educação</option>
+            </select>
+          </div>
+          
+          <button id="butSearch">Mostrar Indicadores</button> 
       </nav>
+      
     </header>
   
-    <nav id="navFilter">
-      <div>
-        <label>Selecione o país:</label>
-        <select id="selCountry">
-          <option value="BRA">Brasil</option>
-          <option value="CHL">Chile</option>
-          <option value="MEX">México</option>
-          <option value="PER">Perú</option>
-        </select>
-      </div>
-
-      <div>
-        <label>Selecione o tema:</label>
-        <select id="selTheme">
-          <option value="EMPLEO">Emprego</option>
-          <option value="MUJERES">Mulheres</option>
-          <option value="TRABAJO">Trabalho</option>
-          <option value="EDUCACIÓN">Educação</option>
-        </select>
-      </div>
-      
-      <button id="butSearch">Mostrar Indicadores</button> 
+    <nav class="bigTitle">
+        <h1>MULHERES NO MERCADO DE TRABALHO</h1>
+        <!-- <p>Brasil - Peru - México - Chile</p> -->
     </nav>
 
-    <section id="secDados" class="secDadosImage">
+    <div class='about'>
+      <h2> SOBRE O SITE </h2>
+    </div>
+
+    <section class="aboutIcons">
+      <img src="brazil.png">
+      <img src="chile.png">
+      <img src="mexico.png">
+      <img src="peru.png">
+    </section>
+
+    <section id="secDados">
 
       <table id="tabIndicators" class="invisible">
         <tr class="headerRow">
