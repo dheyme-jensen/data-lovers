@@ -5,8 +5,11 @@
     <title>Data Lovers</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="data/worldbank/worldbank.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Lato|Quicksand|Tajawal" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+    crossorigin="anonymous">
   </head>
   <body>
 
@@ -28,8 +31,8 @@
     
           <div>
             <!-- <label>Selecione o tema:</label> -->
-            <select id="selTheme">
-              <option value="EMPLEO">Tema</option>
+            <select id="selTheme"> 
+             <option>Tema</option>
               <option value="EMPLEO">Emprego</option>
               <option value="MUJERES">Mulheres</option>
               <option value="TRABAJO">Trabalho</option>
@@ -43,14 +46,35 @@
     </header>
   
     <nav class="bigTitle">
-        <h1>MULHERES NO MERCADO DE TRABALHO</h1>
-        <!-- <p>Brasil - Peru - México - Chile</p> -->
+    
+        <section id="secDados">
+
+            <table id="tabIndicators" class="invisible">
+              <tr class="headerRow">
+                <td>Indicador</td>
+                <td>2013</td>
+                <td>2014</td>
+                <td>2015</td>
+                <td>2016</td>
+                <td>2017</td>
+                <td>Média</td>
+              </tr>
+            </table>
+      
+          </section>
     </nav>
 
     <div class='about'>
       <h2> SOBRE O SITE </h2>
-    </div>
+      <p>Apesar de terem conquistado mais espaço, as mulheres ainda têm menos espaço no mercado de 
+        trabalho e possuem uma participação maior no serviço familiar não remunerado na 
+        comparação com os homens.</p>
+        <p>Neste site, apresentamos dados estatísticos sobre empregabilidade, educação, e 
+        demais dados relacionados às mulheres. Os mesmos foram colhidos pelo Banco Mundial, e 
+       apresentam indicadores de quatro países: Brasil, Chile, México e Peru. </p>
 
+    </div>
+   
     <section class="aboutIcons">
       <img src="brazil.png">
       <img src="chile.png">
@@ -58,21 +82,19 @@
       <img src="peru.png">
     </section>
 
-    <section id="secDados">
+    
 
-      <table id="tabIndicators" class="invisible">
-        <tr class="headerRow">
-          <td>Indicador</td>
-          <td>2013</td>
-          <td>2014</td>
-          <td>2015</td>
-          <td>2016</td>
-          <td>2017</td>
-          <td>Média</td>
-        </tr>
-      </table>
-
-    </section>
+    <footer class="baseboard">
+        <p class="one">NOSSAS FONTES<br><br><strong> The World Bank </strong><br></p>
+        <p class="two">SOBRE O DATA-LADIES <br><br><strong> Dados estatísticos de <br> Brasil, 
+        Chile, México e Peru</p></strong>
+        <p class="three"> SOBRE AS CRIADORAS <br><br> 
+        <strong>Dheyme Jensen e Leda Gomes<br><br></strong>Estudantes da Laboratória Brasil</p>
+      </footer>
+   
+     
+     </body>
+   </html>
 
     <script src="main.js"></script>
   </body>
