@@ -2,6 +2,8 @@ let searIndicators = document.querySelector("#butSearch");
 searIndicators.addEventListener("click", createTable);
 
 function createTable() {
+    let abc = document.querySelector('.bigTitle');
+    abc.className = "showTable";
     // busca os valores dos filtros selecionados pelo usuário
     let selCountry = document.querySelector("#selCountry");
     let countryFilter = selCountry.options[selCountry.selectedIndex].value;
@@ -63,11 +65,12 @@ function createTable() {
     let secDados = document.querySelector("#secDados");
     if (table.rows.length > 1) {
       // se a tabela montada ficou com mais de uma linha, retira a imagem de fundo e deixa a tabela visível
+      secDados.removeAttribute("class");
       secDados.setAttribute("class", "secDados");
       table.setAttribute("class", "visible");
     } else {
       // se a tabela montada ficou somente com o header, coloca a imagem de fundo e deixa a tabela invisível
-      secDados.setAttribute("class", "secDadosImage");
+      secDados.setAttribute("class", "bigTitle");
       table.setAttribute("class", "invisible");
     }
 }
