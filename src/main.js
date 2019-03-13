@@ -3,7 +3,8 @@ searIndicators.addEventListener("click", createTable);
 
 function createTable() {
     let navDados = document.querySelector("#navDados");
-    navDados.setAttribute = ("class", "showTable");
+    navDados.setAttribute("class", "showTable");
+
     let selCountry = document.querySelector("#selCountry");
     let countryFilter = selCountry.options[selCountry.selectedIndex].value;
     let selTheme = document.querySelector("#selTheme");
