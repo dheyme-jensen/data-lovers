@@ -1,30 +1,113 @@
-Projeto Data Lovers
 
-**Definição do Produto
+# Olá, esse é o projeto Data Lovers 
 
-Neste projeto nós desenvolveremos uma _página web_ para visualizar um
-_conjunto (set) de dados_Indicadores de Desenvolvimento que se adeque as necessidades do usuário.
+----
+##Definição do Produto
 
-* [Indicadores de desenvolvimento](src/data/worldbank/worldbank.json):
-  Indicadores de desenvolvimento do Banco Mundial de alguns países (Brasil, Chile, México e Peru). 
-  Estes dados incluim indicadores demográficos, econômicos e comerciais.
+Neste projeto nós desenvolvemos uma página web para visualizar um conjunto de dados/indicadores de Desenvolvimento que se adeque as necessidades do usuário. Selecionamos indicadores de quatro países, sendo eles: Brasil, México, Chile e Peru. Os dados dizem respeito à empregabilidade, educação e dados gerais sobre mulheres.  A lógica do projeto foi desenvolvida em JavaScript (ES6), HTML e CSS.
 
-Como produto final será criado uma página web que permita visualizar os dados, filtrá-los, ordená-los e fazer algum cálculo agregado. 
+----
+## Como usar
+  
+Os usuários podem filtrar os dados por país e por tema. Os mesmos são ordenados alfabeticamente e por ano em ordem crescente.
 
-** Processo de Desenvolvimento do Projeto
+----
+## Processo de desenvolvimento do produto
+ 
+Nesse projeto criamos uma persona para representar nossos potenciais usuários, e desenvolvemos um protótipo pra identificar as necessidades dos mesmos. 
 
-* Quem são os principais usuários de seu produto?
-Os proprios orgãos governamentais, ONGs e Investidores.
+###PERSONA
 
-* Quais são os objetivos de seu usuário com relação ao seu produto?
-O usuário precisa acessar as informações de forma rápida, simples e objetiva.
+**John**
 
-* Quando utilizam seu produto?
-A exposição dos dados de forma clara ajuda nosso usuário em suas diferentes decisões em seus diferentes espaços organizacionais.
+**Idade**: 40
 
-Foi desenvolvido um prototipo. Descrição do Layout da página de acordo com a previsão de funcionalidades.
+**Ramo de atuação**: tecnologia
 
-Foi realizado o teste de usabilidade.
+**Cargo**: CEO
+
+**Sexo**: Masculino
+
+**Residência**: São Paulo
+
+**Escolaridade**: Graduado
+
+**Salário**: R$ 5.000,00
+
+* Rotina diária de John
+
+-trabalha mais de 8 horas por dia
+
+-promove ações sociais
+
+-feminista
+
+ 
+* Papel de John no processo de compra é
+
+ Usuário apenas
+
+ 
+
+* O tom de voz para falar com John tem que ser
+
+ Formal
+
+ 
+
+* Canais de comunicação usados por John
+
+ Google, linkedIn
+
+ 
+
+* Os conteúdos buscados na internet são de 
+ caráter
+
+ Intermediário
+
+* Assuntos procurados por John na internet
+
+ mulheres no mercado de trabalho;
+diferenças salariais entre homens e mulheres;
+Porque mulheres não ocupam tantos cargos de liderança quanto homens;
+
+* Principais problemas que John tenta resolver
+
+ John quer ter acesso à dados socioeconômicos 
+ sobre empregabilidade de mulheres, pois querem 
+ abrir uma filial da empresa no Peru e desejam 
+ contratar mais mulheres;
+ A empresa de John deseja promover ações sociais 
+ e conscientizar os empregadores sobre a 
+ importância da igualdade salarial entre gêneros;  
+
+* Para resolver os problemas de John, podemos
+
+ fornecendo  dados socioeconômicos que facilitem a compreensão, análise e comparação de dados relacionados à integração das mulheres no mercado de trabalho.
+
+* Antes de nos conhecer, John resolvia seus problemas da seguinte forma
+
+ pesquisando em sites governamentais que não possuem filtro específico.
+
+* John irá escolhe nossos produtos ou serviços por quê:
+
+ Porque fornecemos dados claros e autoexplicativos.
+
+* As principais dúvidas de John são:
+
+ Porque as mulheres não ocupam o mesmo lugar que os homens no mercado de trabalho, e em especial na tecnologia.
+Porque pontos como educação, maternidade e violência influenciam na carreira das mulheres.
+
+ 
+
+###Protótipo
+
+[Marvel]
+(https://marvelapp.com/geb8e9e/screen/53882967)
+
+*Um primeiro protótipo passou por testes de usabilidades, e foi-nos relatado que seria interessante separar as áreas de filtros de País e Tema, bem como mudar a cor do background da tela inicial para uma melhor visualização.* 
+
 
 
 

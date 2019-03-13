@@ -32,13 +32,9 @@ header {
     margin-top: 79px;
 }
 .bigTitle {
-    /* margin-top: 6%;
-    font-size: 45px;
-    font-family: 'Archivo Black', sans-serif;
-    text-align: center;
-    color: white; */
+    display: flex;
     height: 100%;
-    background-image: url(background.jpg);
+    background-image: url(woman.jpg);
     padding-top: 53%;
     padding-bottom: 7%;
     background-position: center;
@@ -46,14 +42,9 @@ header {
     background-size: cover;
     background-blend-mode: overlay;
     opacity: 0.8;
+    margin-top: 6%;
+    justify-content: flex-start;
 }
-
-/* .bigTitle p{
-    font-size: 25px;
-    font-family: 'Quicksand', sans-serif;
-    color: #65737e;
-    padding-top: 5%;
-} */
 
 .navFilter{
     display: flex;
@@ -61,12 +52,6 @@ header {
     width: 100%;
     margin-right: -2%;
 }
-/* .navFilter label{
-    font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
-    color: #65737e;
-    padding-top: 4%;
-} */
 
 #selCountry{
     border-radius: 4px;
@@ -206,10 +191,6 @@ tr.valueRow {
     margin-left: 10%;
 }
  
-/* #fab{
-    color: white;
-} */
-
 .two{
     font-family:'Lato';
     font-size: 20px;

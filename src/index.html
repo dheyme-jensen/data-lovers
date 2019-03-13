@@ -2,14 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Data Lovers</title>
+    <title>Data-Ladies</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="data/worldbank/worldbank.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Lato|Quicksand|Tajawal" 
     rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
-    crossorigin="anonymous">
   </head>
   <body>
 
@@ -19,7 +16,6 @@
       </nav>
         <nav class="navFilter">
           <div>
-            <!-- <label>Selecione o país:</label> -->
             <select id="selCountry">
               <option>País</option>
               <option value="BRA">Brasil</option>
@@ -30,7 +26,6 @@
           </div>
     
           <div>
-            <!-- <label>Selecione o tema:</label> -->
             <select id="selTheme"> 
              <option>Tema</option>
               <option value="EMPLEO">Emprego</option>
@@ -41,14 +36,12 @@
           </div>
           
           <button id="butSearch">Mostrar Indicadores</button> 
-      </nav>
       
+        </nav> 
     </header>
   
-    <nav class="bigTitle">
-    
+    <nav id="navDados" class="bigTitle">
         <section id="secDados">
-
             <table id="tabIndicators" class="invisible">
               <tr class="headerRow">
                 <td>Indicador</td>
@@ -60,11 +53,10 @@
                 <td>Média</td>
               </tr>
             </table>
-      
-          </section>
+        </section>
     </nav>
 
-    <div class='about'>
+    <div class="about">
       <h2> SOBRE O SITE </h2>
       <p>Apesar de terem conquistado mais espaço, as mulheres ainda têm menos espaço no mercado de 
         trabalho e possuem uma participação maior no serviço familiar não remunerado na 
@@ -82,8 +74,6 @@
       <img src="peru.png">
     </section>
 
-    
-
     <footer class="baseboard">
         <p class="one">NOSSAS FONTES<br><br><strong> The World Bank </strong><br></p>
         <p class="two">SOBRE O DATA-LADIES <br><br><strong> Dados estatísticos de <br> Brasil, 
@@ -91,9 +81,8 @@
         <p class="three"> SOBRE AS CRIADORAS <br><br> 
         <strong>Dheyme Jensen e Leda Gomes<br><br></strong>Estudantes da Laboratória Brasil</p>
       </footer>
-   
      
-     </body>
+    </body>
    </html>
 
     <script src="main.js"></script>
