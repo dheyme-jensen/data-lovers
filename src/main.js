@@ -2,8 +2,8 @@ let searIndicators = document.querySelector("#butSearch");
 searIndicators.addEventListener("click", createTable);
 
 function createTable() {
-    let abc = document.querySelector('.bigTitle');
-    abc.className = "showTable";
+    let navDados = document.querySelector("#navDados");
+    navDados.setAttribute("class", "showTable");
     // busca os valores dos filtros selecionados pelo usuário
     let selCountry = document.querySelector("#selCountry");
     let countryFilter = selCountry.options[selCountry.selectedIndex].value;
